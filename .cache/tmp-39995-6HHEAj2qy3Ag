@@ -1,0 +1,1 @@
+require("/Users/fabianarodrigues/Projetos/Fabi/ui-teste-cypress/node_modules/gatsby/dist/utils/telemetry-server.js").default(60560)
