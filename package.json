@@ -1,0 +1,63 @@
+{
+  "name": "material-dashboard-react",
+  "version": "1.10.0",
+  "description": "Material Dashboard React. Coded by Creative Tim",
+  "private": false,
+  "main": "dist/index.js",
+  "dependencies": {
+    "@material-ui/core": "4.11.4",
+    "@material-ui/icons": "4.11.2",
+    "chartist": "0.10.1",
+    "classnames": "2.3.1",
+    "history": "5.0.0",
+    "perfect-scrollbar": "1.5.1",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-chartist": "0.14.4",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "react-swipeable-views": "0.13.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "lint:check": "eslint . --ext=js,jsx;  exit 0",
+    "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
+    "build-package-css": "cp src/assets/css/material-dashboard-react.css dist/material-dashboard-react.css",
+    "build-package": "npm run build-package-css && babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/material-dashboard-react.git"
+  },
+  "keywords": [],
+  "author": "Creative Tim <hello@creative-tim.com> (https://www.creative-tim.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creativetimofficial/material-dashboard-react/issues"
+  },
+  "homepage": "https://creativetimofficial.github.io/material-dashboard-react/#/dashboard",
+  "optionalDependencies": {
+    "@babel/core": "7.14.0",
+    "typescript": "4.2.4"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "prettier": "2.2.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": []
+  }
+}
