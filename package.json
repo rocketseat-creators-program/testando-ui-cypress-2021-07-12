@@ -9,6 +9,7 @@
     "@material-ui/icons": "4.11.2",
     "chartist": "0.10.1",
     "classnames": "2.3.1",
+    "cypress": "^7.7.0",
     "history": "5.0.0",
     "perfect-scrollbar": "1.5.1",
     "prop-types": "15.7.2",
